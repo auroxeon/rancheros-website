@@ -1,0 +1,39 @@
+.section {
+  background: #3a2f1f;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: var(--font-inter);
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
