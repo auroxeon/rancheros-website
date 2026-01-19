@@ -1,11 +1,17 @@
-import Hero from '@/components/Hero'
-import PrimarySections from '@/components/PrimarySections'
+'use client'
+
+import GardenDesignHero from '@/components/GardenDesignHero'
+import GardenDesignIntro from '@/components/GardenDesignIntro'
+import GardenDesignGallery from '@/components/GardenDesignGallery'
+import DomesticGardensFooter from '@/components/DomesticGardensFooter'
 
 export default function GardenDesignPage() {
   return (
     <>
-      <Hero />
-      <PrimarySections />
+      <GardenDesignHero />
+      <GardenDesignIntro />
+      <GardenDesignGallery />
+      <DomesticGardensFooter />
     </>
   )
 }
