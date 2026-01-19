@@ -1,0 +1,81 @@
+'use client'
+
+import styles from './GardenBuildSection2.module.css'
+
+export default function GardenBuildSection2() {
+  return (
+    <section className={styles.section}>
+      <div className={styles.container}>
+        <div className={styles.textContent}>
+          <p className={styles.text}>
+            Our garden construction teams are trained to the highest level and have the skills to 
+            build and manage gardens of all shapes and sizes. The build stage is when the magic 
+            starts to unfold and your dream starts to become a reality.
+          </p>
+          <p className={styles.text}>
+            See our garden contractors at work below where our landscapers construct steps in this 
+            stately garden. Our experienced team brings years of expertise to every project, ensuring 
+            quality craftsmanship and attention to detail.
+          </p>
+          <p className={styles.text}>
+            We work closely with garden designers to bring their visions to life, transforming 
+            concepts into beautiful, functional outdoor spaces that enhance your property and lifestyle.
+          </p>
+          <p className={styles.text}>
+            From initial site preparation through to final landscaping touches, our project managers 
+            coordinate every aspect of the build process, ensuring smooth execution and timely completion.
+          </p>
+          <p className={styles.text}>
+            Our commitment to excellence means we use only the finest materials and work with trusted 
+            suppliers to deliver gardens that stand the test of time.
+          </p>
+          <p className={styles.text}>
+            Whether you&apos;re looking to create a peaceful retreat, an entertainment space, or a 
+            family-friendly garden, our build team has the expertise to make it happen.
+          </p>
+          <p className={styles.text}>
+            We understand that building a garden is a significant investment, and we treat every 
+            project with the care and professionalism it deserves.
+          </p>
+          <p className={styles.text}>
+            Our aftercare service ensures your garden continues to thrive long after construction is 
+            complete, with ongoing support and maintenance advice.
+          </p>
+          <p className={styles.text}>
+            Contact us today to discuss your garden build project and discover how we can bring your 
+            outdoor vision to life.
+          </p>
+          <p className={styles.text}>
+            With over 30 years of experience, Rancheros has built a reputation for excellence in 
+            garden construction and project management across London and the South East.
+          </p>
+          <p className={styles.text}>
+            Our team combines traditional craftsmanship with modern techniques to create gardens that 
+            are both beautiful and sustainable.
+          </p>
+          <p className={styles.text}>
+            Every project is unique, and we take pride in delivering bespoke solutions tailored to 
+            your specific needs, budget, and timeline.
+          </p>
+        </div>
+        <div className={styles.imageGrid}>
+          <div className={styles.imageWrapper}>
+            <img 
+              src="/images/Image-1---View-1.jpg" 
+              alt="Garden project 1"
+              className={styles.image}
+            />
+          </div>
+          <div className={styles.imageWrapper}>
+            <img 
+              src="/images/3e2d76_f35fb02c58ea451f850da758a19e66a8f000.jpg" 
+              alt="Garden project 2"
+              className={styles.image}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
