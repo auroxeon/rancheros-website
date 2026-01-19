@@ -4,10 +4,10 @@
   top: 0;
   left: 0;
   right: 0;
-  background: #ffffff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .navbar__container {
@@ -27,8 +27,8 @@
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.2s ease;
   margin-right: 16px;
@@ -40,7 +40,7 @@
 }
 
 .navbar__menu-toggle:hover {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
   transform: translateY(-1px);
 }
 
@@ -57,7 +57,7 @@
   display: block;
   height: 2px;
   width: 100%;
-  background: #1f1f1f;
+  background: #ffffff;
   border-radius: 2px;
 }
 
