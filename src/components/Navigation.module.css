@@ -1,0 +1,126 @@
+.nav {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  font: 600 13px/1.2 Inter, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #f3701c;
+  padding: 8px 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  pointer-events: auto;
+}
+
+.navLink:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navLinkHome:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.chevron {
+  opacity: 0.7;
+  transition: transform 0.18s ease;
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+.dropdown:hover .chevron {
+  transform: rotate(180deg);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownPanel {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  min-width: 260px;
+  background: rgba(15, 15, 15, 0.98);
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 10px;
+  display: grid;
+  gap: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.28s ease, transform 0.28s ease;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dropdownPanelOpen {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(6px);
+}
+
+.dropdownLink {
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #eaeaea;
+  display: block;
+  text-decoration: none;
+  transition: background-color 0.18s ease;
+}
+
+.dropdownLink:hover {
+  background: #1b1b1b;
+}
+
+.navLinkAction {
+  background-color: #000;
+  color: #f3701c;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navLinkAction:hover {
+  background-color: #1a1a1a;
+  color: #f3701c;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+}
+

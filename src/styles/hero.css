@@ -1,0 +1,539 @@
+/* Hero Section Styles - Target Wix classes */
+.hero-section,
+#comp-kbgaghri,
+.comp-kbgaghri {
+  position: relative !important;
+  min-height: 100vh !important;
+  height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding-top: 0 !important;
+  margin-top: 80px !important; /* Navbar height */
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  overflow: hidden !important;
+  color: #f2f2f2 !important;
+  font-family: 'Playfair Display', 'Cormorant', serif !important;
+  text-transform: uppercase !important;
+  box-sizing: border-box !important;
+}
+
+/* Hero media/video container */
+#bgMedia_comp-kbgaghri,
+.comp-kbgaghri #bgMedia_comp-kbgaghri {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Video element */
+#comp-kbgaghri_video,
+.comp-kbgaghri video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: scale(1.02) !important;
+  filter: saturate(105%) contrast(102%) !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Hero content container */
+.comp-kbgaghri-container,
+.comp-kbgaghri-overflow-wrapper {
+  position: relative !important;
+  z-index: 1000 !important;
+  padding: clamp(24px, 5vw, 48px) 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100% !important;
+  margin: 0 auto !important;
+  padding-top: 200px !important; /* Move content down by 200px */
+}
+
+/* Parent container that holds text and button */
+#comp-meep2lnp,
+.comp-meep2lnp-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  width: 100% !important;
+  gap: 0 !important;
+  row-gap: 0 !important;
+  position: relative !important;
+  z-index: 1000 !important;
+}
+
+/* Ensure button spacing is controlled by margin-top */
+#comp-meep2lnp > #comp-meep2loa10,
+#comp-meep2lnp > #comp-meep2lo81 {
+  margin-top: 50px !important;
+}
+
+/* Hero overlay gradient */
+#comp-kbgaghri::after {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.55) 55%, #000 100%) !important;
+  z-index: 2 !important;
+  pointer-events: none !important;
+}
+
+/* Ensure all video-related containers stay below text */
+#bgLayers_comp-kbgaghri,
+#bgLayers_comp-kbgaghri > * {
+  z-index: 1 !important;
+  position: relative !important;
+}
+
+/* Wix video container - keep below text */
+wix-video#videoContainer_comp-kbgaghri,
+#videoContainer_comp-kbgaghri {
+  z-index: 1 !important;
+  position: absolute !important;
+  pointer-events: none !important;
+}
+
+/* Video poster image - keep below text */
+#comp-kbgaghri_img {
+  z-index: 1 !important;
+  position: absolute !important;
+  pointer-events: none !important;
+}
+
+@media (max-width: 1024px) {
+  .comp-kbgaghri-container {
+    padding-left: var(--spacing-xl) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .comp-kbgaghri-container {
+    padding-left: var(--spacing-lg) !important;
+    padding-bottom: var(--spacing-xl) !important;
+  }
+}
+
+/* Ensure hero text and button are aligned on the left */
+#comp-meep2lny3,
+#comp-meep2lo22 {
+  width: auto !important;
+  max-width: 100% !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  display: block !important;
+}
+
+/* Button positioning - below second line, aligned left with text */
+#comp-meep2loa10,
+#comp-meep2lo81 {
+  width: auto !important;
+  max-width: 100% !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  margin-top: var(--spacing-lg) !important;
+  display: block !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* Hero text animations - Based on luxury-gardens-hero reference */
+/* First line: "award-winning garden design" - 29px, 40px line height */
+.hero__text-1,
+#comp-meep2lny3,
+#comp-meep2lny3 .wixui-rich-text__text,
+#comp-meep2lny3 h3,
+#comp-meep2lny3 span {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  font-size: 29px !important;
+  line-height: 40px !important;
+  margin-top: 150px !important;
+  margin-bottom: 12px !important;
+  color: #f2f2f2 !important;
+  font-family: 'Playfair Display', 'Cormorant', serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  position: relative !important;
+  z-index: 1000 !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+  pointer-events: none !important;
+}
+
+/* Character-by-character animation for first line */
+.hero__text-1 .char,
+#comp-meep2lny3 .char {
+  display: inline-block !important;
+  opacity: 0 !important;
+  transform: translateY(100%) !important;
+  animation: slideInUp 0.8s var(--delay, 0s) forwards !important;
+}
+
+/* Second line: "luxury gardens" - 76px, 91px line height */
+.hero__text-2,
+#comp-meep2lo22,
+#comp-meep2lo22 .wixui-rich-text__text,
+#comp-meep2lo22 h2,
+#comp-meep2lo22 span {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  font-size: 76px !important;
+  line-height: 91px !important;
+  margin-top: 100px !important;
+  color: #f2f2f2 !important;
+  font-family: 'Playfair Display', 'Cormorant', serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  position: relative !important;
+  z-index: 1000 !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+  margin-bottom: 0 !important;
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+  pointer-events: none !important;
+}
+
+/* Character-by-character animation for second line */
+.hero__text-2 .char,
+#comp-meep2lo22 .char {
+  display: inline-block !important;
+  opacity: 0 !important;
+  transform: translateY(100%) !important;
+  animation: slideInUp 0.8s var(--delay, 0s) forwards !important;
+}
+
+@keyframes slideInUp {
+  to {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+
+.hero__button-animated,
+#comp-meep2lo81,
+#comp-meep2loa10 {
+  opacity: 1 !important;
+  animation: fadeIn 0.8s ease-out forwards !important;
+  animation-delay: 1.2s !important;
+  visibility: visible !important;
+  display: inline-block !important;
+  position: relative !important;
+  z-index: 10 !important;
+  padding: 8px 16px !important;
+  border-radius: 20px !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  border: none !important;
+  min-width: auto !important;
+  width: auto !important;
+}
+
+/* Hide button icon */
+#comp-meep2loa10 .wixui-button__icon,
+#comp-meep2loa10 [data-testid="stylablebutton-icon"],
+#comp-meep2lo81 .wixui-button__icon,
+#comp-meep2lo81 [data-testid="stylablebutton-icon"],
+.hero__button-animated .wixui-button__icon,
+.hero__button-animated [data-testid="stylablebutton-icon"] {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Button label/text styling */
+#comp-meep2loa10 .wixui-button__label,
+#comp-meep2loa10 .w4Vxx6,
+#comp-meep2loa10 [data-testid="stylablebutton-label"],
+#comp-meep2lo81 .wixui-button__label,
+#comp-meep2lo81 [data-testid="stylablebutton-label"],
+.hero__button-animated .wixui-button__label,
+.hero__button-animated .w4Vxx6 {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+}
+
+/* Button container - remove extra spacing */
+#comp-meep2loa10 .StylableButton2545352419__container,
+#comp-meep2lo81 .StylableButton2545352419__container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  gap: 0 !important;
+}
+
+/* Ensure button is visible and positioned correctly */
+#comp-meep2loa10,
+#comp-meep2lo81 {
+  position: relative !important;
+  z-index: 10 !important;
+  margin-top: 50px !important;
+}
+
+/* Hero phone number */
+.hero__phone,
+#comp-meepnqmt {
+  opacity: 0 !important;
+  animation: fadeIn 0.8s ease-out forwards !important;
+  animation-delay: 1.4s !important;
+  margin-top: var(--spacing-lg) !important;
+}
+
+.hero__phone .wixui-button__label,
+#comp-meepnqmt .wixui-button__label {
+  color: white !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: var(--spacing-sm) !important;
+}
+
+/* Legacy hero class support */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  overflow: hidden;
+  background: var(--color-bg);
+  margin-top: 80px; /* Navbar height */
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100vh;
+    padding-top: var(--header-height-mobile);
+  }
+}
+
+.hero__media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-base);
+}
+
+.hero__media img,
+.hero__media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  z-index: calc(var(--z-base) + 1);
+}
+
+.hero__content {
+  position: relative;
+  z-index: calc(var(--z-base) + 2);
+  text-align: left;
+  color: var(--color-white);
+  padding: var(--spacing-3xl) var(--spacing-lg);
+  max-width: 50%;
+  margin-left: var(--spacing-3xl);
+  margin-bottom: var(--spacing-3xl);
+  transform: translateY(-81px);
+}
+
+@media (max-width: 1024px) {
+  .hero__content {
+    max-width: 60%;
+    margin-left: var(--spacing-xl);
+    transform: translateY(-81px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__content {
+    max-width: 90%;
+    margin-left: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    transform: translateY(-81px);
+  }
+}
+
+/* Hero Text Animation - Slide in from left */
+.hero__text-wrapper {
+  overflow: hidden;
+}
+
+.hero__title,
+.hero__lead {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideInFromLeft 1s ease-out forwards;
+  color: var(--color-white);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero__title {
+  font-family: var(--font-display);
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-lg);
+  animation-delay: 0.2s;
+}
+
+.hero__lead {
+  font-size: var(--font-size-xl);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-xl);
+  font-weight: 300;
+  animation-delay: 0.4s;
+}
+
+@keyframes slideInFromLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: var(--font-size-4xl);
+  }
+  
+  .hero__lead {
+    font-size: var(--font-size-lg);
+  }
+}
+
+/* Hero Button - Fade in after text */
+.hero__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+  animation-delay: 1.2s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.hero__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  font-family: var(--font-menu);
+  background: var(--color-accent);
+  color: var(--color-white);
+}
+
+.hero__button:hover {
+  background: var(--color-accent-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(132, 117, 57, 0.3);
+}
+
+/* Hero Phone Number */
+.hero__phone {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--color-white);
+  font-size: var(--font-size-lg);
+  margin-top: var(--spacing-lg);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+  animation-delay: 1.4s;
+}
+
+.hero__phone-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.hero__phone-link {
+  color: var(--color-white);
+  text-decoration: none;
+  transition: opacity var(--transition-base);
+}
+
+.hero__phone-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .hero__phone {
+    font-size: var(--font-size-base);
+  }
+  
+  .hero__phone-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+

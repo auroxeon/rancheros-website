@@ -1,0 +1,24 @@
+{
+  "stylesheets": [
+    {
+      "link": "<link href=\"\" rel=\"stylesheet\" id=\"layout-fixer-style-comp-m9r7tknv1\"/>",
+      "href": null
+    }
+  ],
+  "styleTags": 6,
+  "scripts": {
+    "external": [
+      "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+      "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.06241cf0.bundle.min.js",
+      "https://static.parastorage.com/services/wix-thunderbolt/dist/main.22768e1b.bundle.min.js",
+      "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.f600e767.bundle.min.js",
+      "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+      "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+      "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+      "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+      "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js"
+    ],
+    "inline": 35
+  },
+  "extractedAt": "2025-11-07T10:57:52.130Z"
+}

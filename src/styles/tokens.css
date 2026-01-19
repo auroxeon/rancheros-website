@@ -1,0 +1,82 @@
+/* Design Tokens - CSS Variables */
+:root {
+  /* Colors from original site */
+  --color-primary: rgb(209, 220, 205);
+  --color-primary-dark: rgb(167, 176, 164);
+  --color-primary-darker: rgb(125, 132, 123);
+  --color-primary-darkest: rgb(84, 88, 82);
+  --color-text: rgb(42, 44, 41);
+  --color-text-light: rgb(125, 132, 123);
+  --color-accent: rgb(132, 117, 57);
+  --color-accent-light: rgb(173, 163, 124);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+  --color-bg: rgb(248, 249, 245);
+  
+  /* Wix color variables (preserved for compatibility) */
+  --wix-color-1: 209, 220, 205;
+  --wix-color-2: 167, 176, 164;
+  --wix-color-3: 125, 132, 123;
+  --wix-color-4: 84, 88, 82;
+  --wix-color-5: 42, 44, 41;
+  --wix-color-6: 255, 255, 255;
+  --wix-color-7: 173, 163, 124;
+  --wix-color-8: 132, 117, 57;
+  
+  /* Typography */
+  --font-display: 'Playfair Display', 'Cormorant', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-menu: 'Open Sans', sans-serif;
+  --font-heading: 'Montserrat', sans-serif;
+  
+  /* Font sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 30px;
+  --font-size-4xl: 36px;
+  --font-size-5xl: 48px;
+  --font-size-6xl: 70px;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* Layout */
+  --container-max-width: 1200px;
+  --header-height: 80px;
+  --header-height-mobile: 60px;
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Z-index layers */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  
+  /* Animation durations */
+  --animation-fast: 0.3s;
+  --animation-base: 0.6s;
+  --animation-slow: 1s;
+  
+  /* Luxury Gardens Hero Design Tokens */
+  --lg-text: #f2f2f2;
+  --lg-font-display: 'Playfair Display', 'Cormorant', serif;
+  --lg-gutter: clamp(24px, 5vw, 48px);
+  --lg-fsize-hero: clamp(36px, 6vw, 84px);
+  --lg-fsize-hero-sub: clamp(24px, 4vw, 48px);
+}
+

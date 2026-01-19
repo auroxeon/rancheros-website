@@ -1,0 +1,115 @@
+/* Typography Styles */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* Display font for headlines */
+.font-display,
+.tk-presti-display,
+h1,
+h2,
+.hero__title,
+.section__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+h1,
+.hero__title {
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+}
+
+h2,
+.section__title {
+  font-size: var(--font-size-4xl);
+  font-weight: 400;
+}
+
+h3 {
+  font-size: var(--font-size-3xl);
+  font-weight: 400;
+  font-family: var(--font-body);
+}
+
+h4 {
+  font-size: var(--font-size-2xl);
+  font-weight: 400;
+}
+
+h5 {
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+}
+
+h6 {
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
+
+.lead,
+.hero__lead {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* Menu typography */
+.nav__link,
+.menu-item {
+  font-family: var(--font-menu);
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+/* Body text variants */
+.text-sm {
+  font-size: var(--font-size-sm);
+}
+
+.text-lg {
+  font-size: var(--font-size-lg);
+}
+
+.text-xl {
+  font-size: var(--font-size-xl);
+}
+
+/* Font weights */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
