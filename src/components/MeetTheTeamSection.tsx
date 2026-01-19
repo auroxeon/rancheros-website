@@ -21,7 +21,7 @@ export default function MeetTheTeamSection() {
       </div>
       <div className={styles.imageHalf}>
         <img 
-          src="/images/meet-the-team.jpg" 
+          src="/images/3e2d76_f35fb02c58ea451f850da758a19e66a8f000.jpg" 
           alt="Meet the team"
           className={styles.image}
         />

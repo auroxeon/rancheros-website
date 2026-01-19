@@ -8,7 +8,7 @@ export default function HowWeWorkSection() {
     <section className={styles.section}>
       <div className={styles.imageHalf}>
         <img 
-          src="/images/how-we-work.jpg" 
+          src="/images/Image-1---View-1.jpg" 
           alt="How we work"
           className={styles.image}
         />

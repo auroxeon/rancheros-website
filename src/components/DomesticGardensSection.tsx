@@ -8,7 +8,7 @@ export default function DomesticGardensSection() {
     <section className={styles.section}>
       <div className={styles.imageHalf}>
         <img 
-          src="/images/garden-domestic.jpg" 
+          src="/images/20251019_112543.jpg" 
           alt="Domestic garden design"
           className={styles.image}
         />

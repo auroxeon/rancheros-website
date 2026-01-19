@@ -20,7 +20,7 @@ export default function CommercialGardensSection() {
       </div>
       <div className={styles.imageHalf}>
         <img 
-          src="/images/garden-commercial.jpg" 
+          src="/images/Stapleton-Hall-Road-12.jpg" 
           alt="Commercial garden design"
           className={styles.image}
         />
