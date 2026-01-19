@@ -27,13 +27,13 @@ export default function Header() {
   const navItems = useMemo(
     () => [
       { label: "Home", href: "/" },
-      { label: "Domestic Gardens", href: "/domestic-gardens" },
-      { label: "Commercial Gardens", href: "/commercial-gardens" },
+      { label: "Architects", href: "/domestic-gardens" },
+      { label: "Designers", href: "/commercial-gardens" },
       { label: "Meet the Team", href: "/meet-the-team" },
       { label: "How we Work", href: "/how-we-work" },
-      { label: "Garden Design", href: "/garden-design" },
+      { label: "Grills", href: "/garden-design" },
       { label: "Garden Build", href: "/garden-build" },
-      { label: "Garden Maintenance", href: "/garden-maintenance" },
+      { label: "Members Club", href: "/garden-maintenance" },
       { label: "Press", href: "/press" },
       { label: "Careers", href: "/careers" },
       { label: "Get in touch", href: "/contact" },

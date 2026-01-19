@@ -1,0 +1,40 @@
+.section {
+  background: #3a2f1f;
+  height: 50vh;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: var(--font-inter);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    height: 50vh;
+    min-height: 360px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+}
+
