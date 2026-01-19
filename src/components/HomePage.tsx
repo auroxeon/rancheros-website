@@ -5,6 +5,7 @@ import AboutSection from './AboutSection'
 import DomesticGardensSection from './DomesticGardensSection'
 import CommercialGardensSection from './CommercialGardensSection'
 import HowWeWorkSection from './HowWeWorkSection'
+import MeetTheTeamSection from './MeetTheTeamSection'
 import NewsletterSection from './NewsletterSection'
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
       <DomesticGardensSection />
       <CommercialGardensSection />
       <HowWeWorkSection />
+      <MeetTheTeamSection />
       <NewsletterSection />
     </>
   )

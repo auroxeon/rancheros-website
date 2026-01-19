@@ -6,7 +6,14 @@ import styles from './HowWeWorkSection.module.css'
 export default function HowWeWorkSection() {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={styles.imageHalf}>
+        <img 
+          src="/images/how-we-work.jpg" 
+          alt="How we work"
+          className={styles.image}
+        />
+      </div>
+      <div className={styles.textHalf}>
         <div className={styles.content}>
           <h2 className={styles.heading}>How we work</h2>
           <p className={styles.description}>

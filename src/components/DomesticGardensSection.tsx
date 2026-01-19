@@ -6,7 +6,14 @@ import styles from './DomesticGardensSection.module.css'
 export default function DomesticGardensSection() {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={styles.imageHalf}>
+        <img 
+          src="/images/garden-domestic.jpg" 
+          alt="Domestic garden design"
+          className={styles.image}
+        />
+      </div>
+      <div className={styles.textHalf}>
         <div className={styles.content}>
           <h2 className={styles.heading}>Domestic Gardens</h2>
           <p className={styles.description}>
