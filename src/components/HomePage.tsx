@@ -4,7 +4,6 @@ import Hero from './Hero'
 import AboutSection from './AboutSection'
 import DomesticGardensSection from './DomesticGardensSection'
 import CommercialGardensSection from './CommercialGardensSection'
-import HowWeWorkSection from './HowWeWorkSection'
 import MeetTheTeamSection from './MeetTheTeamSection'
 import NewsletterSection from './NewsletterSection'
 
@@ -15,7 +14,6 @@ export default function HomePage() {
       <AboutSection />
       <DomesticGardensSection />
       <CommercialGardensSection />
-      <HowWeWorkSection />
       <MeetTheTeamSection />
       <NewsletterSection />
     </>
