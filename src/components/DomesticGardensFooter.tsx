@@ -35,9 +35,6 @@ export default function DomesticGardensFooter() {
               <div className={styles.socialImage}>
                 <img src="/images/3e2d76_f35fb02c58ea451f850da758a19e66a8f000.jpg" alt="Social post" />
               </div>
-              <div className={styles.socialImage}>
-                <img src="/images/20251019_120008.png" alt="Social post" />
-              </div>
             </div>
           </div>
           <div className={styles.col}>
