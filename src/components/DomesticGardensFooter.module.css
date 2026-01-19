@@ -68,8 +68,8 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin-top: 8px;
-  width: 50vw;
-  max-width: 50%;
+  width: calc(50vw - 96px);
+  max-width: 700px;
 }
 
 .socialImage {
