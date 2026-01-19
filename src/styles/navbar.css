@@ -6,7 +6,7 @@
   right: 0;
   background: transparent;
   z-index: 1000;
-  padding: 24px 32px;
+  padding: 4px 32px;
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
 
@@ -136,7 +136,7 @@
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 20px 24px;
+    padding: 0px 24px;
   }
 
   .navbar__logo-img {
