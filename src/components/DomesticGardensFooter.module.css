@@ -1,0 +1,162 @@
+.footer {
+  background: #3a2f1f;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 80px 0 60px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+  font-family: var(--font-inter);
+}
+
+.text {
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  font-family: var(--font-inter);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+  font-family: var(--font-inter);
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.separator {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.socialGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.socialImage {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  background: #2a2a2a;
+}
+
+.socialImage img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.socialIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  font-family: var(--font-inter);
+}
+
+.socialIcon:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.awards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.award {
+  font-size: 0.75rem;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--font-inter);
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .socialGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 0 40px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .grid {
+    gap: 32px;
+  }
+
+  .socialGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+

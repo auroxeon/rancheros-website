@@ -3,7 +3,7 @@ import { Inter, Montserrat, Open_Sans, Nunito, Playfair_Display } from 'next/fon
 import '../styles/globals.css'
 // All CSS modules are imported via globals.css
 import Header from '@/components/Header'
-import Footer from '@/components/Footer/Footer'
+import ConditionalFooter from '@/components/ConditionalFooter'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat', display: 'swap' })
@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className="responsive">
         <Header />
         {children}
-        <Footer />
+        <ConditionalFooter />
       </body>
     </html>
   )
