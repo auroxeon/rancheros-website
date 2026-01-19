@@ -7,7 +7,7 @@ export default function GardenDesignIntro() {
     <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.text}>
-          Rancheros' garden design team creates bespoke outdoor spaces throughout London. From rooftop 
+          Rancheros&apos; garden design team creates bespoke outdoor spaces throughout London. From rooftop 
           terraces, family gardens and sleek courtyards, to exclusive restaurants, hotels and offices, 
           our expertly trained team of designers will ensure your gardens are beautifully designed and 
           perfectly executed.

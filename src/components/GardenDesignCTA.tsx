@@ -13,7 +13,7 @@ export default function GardenDesignCTA() {
           </div>
           <div className={styles.textContent}>
             <h2 className={styles.heading}>Planning a Project</h2>
-            <p className={styles.text}>We'd be delighted to discuss your requirements.</p>
+            <p className={styles.text}>We&apos;d be delighted to discuss your requirements.</p>
             <Link href="/contact" className={styles.button}>
               GET IN TOUCH
             </Link>
