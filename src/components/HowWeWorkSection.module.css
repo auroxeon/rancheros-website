@@ -58,21 +58,8 @@
   font-size: 1.125rem;
   line-height: 1.8;
   color: #2A2C29;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   font-family: var(--font-inter);
-}
-
-.link {
-  display: inline-block;
-  color: #2A2C29;
-  text-decoration: underline;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-  font-family: var(--font-inter);
-}
-
-.link:hover {
-  color: #847539;
 }
 
 @media (max-width: 768px) {
