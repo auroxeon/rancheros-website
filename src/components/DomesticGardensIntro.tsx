@@ -8,19 +8,18 @@ export default function DomesticGardensIntro() {
       <div className={styles.darkSection}>
         <div className={styles.container}>
           <p className={styles.text}>
-            Our dynamic and award-winning gardening team specialises in the design and build of 
-            groundbreaking domestic gardens for residential and private homes. Bring your vision 
-            to life with Rancheros.
+            Position the Rancheros grill as the focal point of extraordinary outdoor spaces—not just 
+            functional, but sculptural. Our parrillas become architectural statements, seamlessly 
+            integrating with your vision for open-air living pavilions, fire pit lounges, and custom enclosures.
           </p>
         </div>
       </div>
       <div className={styles.lightSection}>
         <div className={styles.container}>
           <p className={styles.text}>
-            Rancheros creates outside spaces which work perfectly for you: which enhance your lifestyle, 
-            which provide harmony between house and garden, which present focal points from your house 
-            and frame views from the wider land or cityscape. To ensure that your garden continues to 
-            evolve and thrive we offer a garden maintenance service fulfilled by trained horticulturalists.
+            We collaborate with architects to create integrated architectural kitchens with chimneys, overhead 
+            canopies, and textured natural materials—corten steel, volcanic stone, polished concrete—that 
+            elevate the barbecue into art and architecture.
           </p>
         </div>
       </div>

@@ -8,18 +8,18 @@ export default function MeetTheTeamIntro() {
       <div className={styles.darkSection}>
         <div className={styles.container}>
           <p className={styles.text}>
-            Our dynamic and award-winning team brings together expertise in garden design, 
-            construction, and maintenance. With years of experience creating exceptional outdoor 
-            spaces, we are passionate about delivering outstanding results for every client.
+            Our dynamic team brings together expertise from two worlds: the Argentinian polo culture 
+            where fire, horsemanship, and gathering define excellence; and the razor-sharp precision 
+            of high-performance motorsport engineering.
           </p>
         </div>
       </div>
       <div className={styles.lightSection}>
         <div className={styles.container}>
           <p className={styles.text}>
-            From our skilled designers and project managers to our expert construction teams and 
-            horticulturalists, every member of the Rancheros team is dedicated to excellence. 
-            We work collaboratively to bring your garden vision to life.
+            From our skilled engineers and craftsmen to our expert project managers and installation 
+            specialists, every member of the Rancheros team is dedicated to delivering uncompromising 
+            quality and exceptional service. We work collaboratively to bring your vision to life.
           </p>
         </div>
       </div>

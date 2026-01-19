@@ -15,8 +15,8 @@ const Hero = () => {
     })
   }, [])
 
-  const headline = 'We work in harmony with nature and the seasons, creating landscapes that immerse, re-energise and bring new perspectives'
-  const subHeadline = ''
+  const headline = 'Heritage. Performance. Innovation.'
+  const subHeadline = 'Where Argentinian tradition meets precision engineering'
 
   const wrapChars = (text: string) =>
     Array.from(text).map((c, idx) => (

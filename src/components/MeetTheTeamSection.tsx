@@ -10,9 +10,9 @@ export default function MeetTheTeamSection() {
         <div className={styles.content}>
           <h2 className={styles.heading}>Meet the Team</h2>
           <p className={styles.description}>
-            Our team of world-class garden designers, landscape architects, and dedicated gardeners 
-            bring passion, creativity, and innovation to every project. We work together with one 
-            shared aim: to craft spaces that inspire and delight.
+            Our dynamic team brings together expertise from two worlds: the Argentinian polo culture 
+            where fire, horsemanship, and gathering define excellence; and the razor-sharp precision 
+            of high-performance motorsport engineering.
           </p>
           <Link href="/meet-the-team" className={styles.link}>
             Meet our team &gt;

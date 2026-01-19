@@ -8,20 +8,21 @@ export default function CommercialGardensSection() {
     <section className={styles.section}>
       <div className={styles.textHalf}>
         <div className={styles.content}>
-          <h2 className={styles.heading}>Commercial Gardens</h2>
+          <h2 className={styles.heading}>Designers</h2>
           <p className={styles.description}>
-            A multi-disciplinary service, creating distinctive, individual spaces that will 
-            enhance and promote your business.
+            Craft Culinary Sanctuaries. Interior and garden designers work with Rancheros to transform 
+            outdoor cooking into ceremonial luxury experiences. We bring cohesion between indoor elegance 
+            and outdoor authenticity.
           </p>
           <Link href="/commercial-gardens" className={styles.link}>
-            View our commercial gardens portfolio &gt;
+            Explore designer collaborations &gt;
           </Link>
         </div>
       </div>
       <div className={styles.imageHalf}>
         <img 
           src="/images/Stapleton-Hall-Road-12.jpg" 
-          alt="Commercial garden design"
+          alt="Designers"
           className={styles.image}
         />
       </div>
