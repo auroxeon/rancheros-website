@@ -7,10 +7,9 @@ export default function CommercialGardensIntro() {
     <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.text}>
-          Rancheros creates exceptional commercial garden spaces for businesses, restaurants, hotels, 
-          and offices throughout London and the South East. Our commercial garden design and build 
-          services transform outdoor spaces into impressive environments that enhance your brand and 
-          create memorable experiences for clients and employees.
+          Interior and garden designers work with Rancheros to transform outdoor cooking into ceremonial 
+          luxury experiences. We bring cohesion between indoor elegance and outdoor authenticity, curating 
+          chef&apos;s pantry zones, edible gardens, and courtyard-style grilling sanctuaries.
         </p>
       </div>
     </section>

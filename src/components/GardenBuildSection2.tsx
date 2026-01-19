@@ -8,14 +8,14 @@ export default function GardenBuildSection2() {
       <div className={styles.container}>
         <div className={styles.textContent}>
           <p className={styles.text}>
-            Our garden construction teams are trained to the highest level and have the skills to 
-            build and manage gardens of all shapes and sizes. The build stage is when the magic 
-            starts to unfold and your dream starts to become a reality.
+            Our fabrication and installation teams are trained to the highest standards, combining 
+            motorsport-grade engineering precision with artisan craftsmanship. The build stage is when 
+            your vision transforms into a functional masterpiece.
           </p>
           <p className={styles.text}>
-            See our garden contractors at work below where our landscapers construct steps in this 
-            stately garden. Our experienced team brings years of expertise to every project, ensuring 
-            quality craftsmanship and attention to detail.
+            From firebrick-lined fireboxes to motorized V-grate systems, every component is precision-engineered 
+            and hand-assembled. Our white-glove installation service ensures your grill is perfectly integrated 
+            into your outdoor space, ready for years of exceptional cooking.
           </p>
         </div>
         <div className={styles.imageGrid}>

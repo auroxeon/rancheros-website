@@ -13,7 +13,7 @@ export default function HowWeWorkHero() {
         />
       </div>
       <div className={styles.overlay}>
-        <h1 className={styles.title}>How We Work</h1>
+        <h1 className={styles.title}>How we Work</h1>
       </div>
     </section>
   )

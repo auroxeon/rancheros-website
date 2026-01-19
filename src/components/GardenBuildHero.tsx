@@ -13,7 +13,7 @@ export default function GardenBuildHero() {
         />
       </div>
       <div className={styles.overlay}>
-        <h1 className={styles.title}>Garden Build & Project Management</h1>
+        <h1 className={styles.title}>Garden Build</h1>
       </div>
     </section>
   )

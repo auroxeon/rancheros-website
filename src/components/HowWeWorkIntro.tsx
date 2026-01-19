@@ -7,14 +7,13 @@ export default function HowWeWorkIntro() {
     <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.text}>
-          Rancheros offers a fully integrated, bespoke garden service for all manner of spaces, 
-          both domestic and commercial. We cover every stage of the development process from design, 
-          to installation, through to maintenance. Our highly skilled and experienced teams deliver 
-          endless pleasure, both practically and aesthetically.
+          Every Rancheros grill begins with conversation. We work closely with architects, designers, 
+          and discerning homeowners to understand your vision, space, and culinary aspirations.
         </p>
         <p className={styles.text}>
-          Our three departments Garden design, Project management and garden build and Garden 
-          maintenance work closely together but also independently.
+          Our process combines precision engineering with artisan craftsmanship. From initial consultation 
+          through design, fabrication, and white-glove installation, we ensure every detail reflects your 
+          exacting standards.
         </p>
       </div>
     </section>

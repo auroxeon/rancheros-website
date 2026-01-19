@@ -11,14 +11,14 @@ export default function GardenMaintenancePage() {
       <GardenMaintenanceHero />
       <GardenMaintenanceIntro />
       <HowWeWorkSection
-        heading="London's most accomplished garden maintenance team"
-        description="Our passionate and dedicated team of horticulturalists brings years of experience and expertise to every garden. We understand that each garden is unique, and we work closely with you to ensure your outdoor space continues to thrive and evolve beautifully throughout the seasons."
+        heading="Annual Membership Experience"
+        description="Welcome Package includes custom-engraved asado knife set, premium organic charcoal or wood sourced from Patagonia, leather-bound recipe and pairing journal with curated content from master grillers and sommeliers, and access card engraved with your name and unique membership number."
         image="/images/Stapleton-Hall-Road-12.jpg"
         imagePosition="right"
       />
       <HowWeWorkSection
-        heading="An expert gardening team"
-        description="With over 30 years of combined experience, our trained horticulturalists bring a wealth of knowledge to every maintenance project. We take a personalized approach to garden care, ensuring that each space receives the attention it needs to flourish year-round."
+        heading="Exclusive Events & Quarterly Boxes"
+        description="Every three months, members receive rare South American spice blends, chimichurri variants, dry rubs, small-batch Malbec or Torrontés pairings, artisan cured meats, and limited-edition grilling tools. Plus access to exclusive events like Sol & Smoke summer retreats and La Noche del Fuego winter dining series."
         image="/images/Image-1---View-1.jpg"
         imagePosition="left"
       />

@@ -11,14 +11,14 @@ export default function HowWeWorkPage() {
       <HowWeWorkHero />
       <HowWeWorkIntro />
       <HowWeWorkSection
-        heading="Communication"
-        description="Our approach to client outcomes is sensitive to client needs, diligent interpretation of briefs, and transformation into bespoke space. The well-oiled machine of our back-office team (base camp) handles administration, customer service, scheduling, and finances. Rancheros is a friendly, caring, family-run company offering first-class service. Excellent industry links."
+        heading="Bespoke Excellence, Start to Finish"
+        description="Every Rancheros grill begins with conversation. We work closely with architects, designers, and discerning homeowners to understand your vision, space, and culinary aspirations. Our process combines precision engineering with artisan craftsmanship, ensuring every detail reflects your exacting standards."
         image="/images/Stapleton-Hall-Road-12.jpg"
         imagePosition="right"
       />
       <HowWeWorkSection
-        heading="Innovative solutions"
-        description="With three decades of experience tackling a broad range of garden and landscape projects, from contemporary cutting-edge urban sites to country estates, rooftop terraces, boutique hotels, and destination restaurants. Our success comes from creative intelligence, an obsessive attention to detail and an ability to deliver within budget and on schedule."
+        heading="Precision Engineering & Artisan Craftsmanship"
+        description="From initial consultation through design, fabrication, and white-glove installation, we ensure excellence at every touchpoint. Our grills are engineered with motorsport-grade precision, combining traditional Argentinian asado heritage with modern innovation to deliver uncompromising quality in materials, craftsmanship, and design."
         image="/images/Image-1---View-1.jpg"
         imagePosition="left"
       />

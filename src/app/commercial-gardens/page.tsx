@@ -14,26 +14,26 @@ export default function CommercialGardensPage() {
       <CommercialGardensHero />
       <CommercialGardensIntro />
       <GardenDesignContentSection
-        heading="London's leading commercial garden specialists"
-        text="Our experienced team specializes in creating stunning commercial garden spaces that enhance business environments. From rooftop terraces and restaurant courtyards to hotel gardens and office landscapes, we deliver designs that impress clients and create lasting impact."
+        heading="Craft Culinary Sanctuaries"
+        text="Interior and garden designers work with Rancheros to transform outdoor cooking into ceremonial luxury experiences. We bring cohesion between indoor elegance and outdoor authenticity, curating chef&apos;s pantry zones, edible gardens, and courtyard-style grilling sanctuaries."
         images={[
           '/images/Stapleton-Hall-Road-12.jpg',
           '/images/Image-1---View-1.jpg'
         ]}
       />
       <GardenDesignContentSection
-        heading="Expert commercial garden solutions"
-        text="With extensive experience in commercial projects, we understand the unique requirements of business environments. Our commercial garden designs combine aesthetic appeal with practical functionality, creating spaces that support your business objectives and enhance your brand identity."
+        heading="Designer Collaborations"
+        text="From sourcing luxury outdoor furniture to designing immersive landscapes with native South American flora, every touchpoint reflects considered, layered design that honors the ritual of fire and gathering. Our grills become the centerpiece of extraordinary outdoor spaces."
         images={[
           '/images/3e2d76_f35fb02c58ea451f850da758a19e66a8f000.jpg',
           '/images/20251019_120008.png'
         ]}
       />
       <GardenDesignTextSection
-        heading="Commercial garden excellence"
+        heading="That extra something"
         paragraphs={[
-          "Our commercial garden services are tailored to meet the specific needs of businesses, ensuring that every project delivers both visual impact and practical benefits. We work closely with commercial clients to understand their brand, their space, and their objectives.",
-          "From initial consultation through to completion and ongoing maintenance, we provide a comprehensive service that ensures your commercial garden space continues to enhance your business for years to come."
+          "Our commitment to excellence means we bring professionalism, punctuality, and top-of-the-range design tools to every project. We understand that outdoor cooking design is not just about creating beautiful spaces, but about creating spaces that work perfectly for you and your lifestyle.",
+          "We offer a bespoke service where our office team provides full support throughout your project, and our designers work alongside you to help your outdoor space evolve beautifully over time. From initial consultation to final installation, we&apos;re with you every step of the way."
         ]}
       />
       <GardenDesignCTA />

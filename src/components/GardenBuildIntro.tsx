@@ -7,9 +7,9 @@ export default function GardenBuildIntro() {
     <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.text}>
-          Rancheros are seasoned garden project managers and garden builders having helped plan 
-          and construct some of the finest gardens in London and the South East. Turn your garden 
-          dream into reality with our garden builders.
+          Rancheros combines precision engineering with artisan craftsmanship to deliver exceptional 
+          outdoor cooking installations. From initial consultation through design, fabrication, and 
+          white-glove installation, we ensure every detail reflects your exacting standards.
         </p>
       </div>
     </section>

@@ -8,12 +8,12 @@ export default function GardenMaintenanceHero() {
       <div className={styles.imageWrapper}>
         <img 
           src="/images/20251019_112543.jpg" 
-          alt="Garden Maintenance"
+          alt="Members Club"
           className={styles.image}
         />
       </div>
       <div className={styles.overlay}>
-        <h1 className={styles.title}>Garden Maintenance</h1>
+        <h1 className={styles.title}>Members Club</h1>
       </div>
     </section>
   )

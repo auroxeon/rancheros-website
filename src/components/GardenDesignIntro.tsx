@@ -7,10 +7,10 @@ export default function GardenDesignIntro() {
     <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.text}>
-          Rancheros&apos; garden design team creates bespoke outdoor spaces throughout London. From rooftop 
-          terraces, family gardens and sleek courtyards, to exclusive restaurants, hotels and offices, 
-          our expertly trained team of designers will ensure your gardens are beautifully designed and 
-          perfectly executed.
+          Rancheros Elite Grills delivers the pinnacle of outdoor cooking with high-end, highly engineered 
+          Argentinian parrilla BBQ grills, crafted for those who demand both luxury and authenticity. Designed 
+          for BBQ enthusiasts and discerning customers, our grills combine precision engineering, premium 
+          materials, and timeless craftsmanship, ensuring exceptional durability and performance.
         </p>
       </div>
     </section>
