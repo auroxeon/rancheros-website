@@ -12,8 +12,9 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr auto 1fr;
   gap: 60px;
+  align-items: start;
 }
 
 .col {
@@ -68,8 +69,8 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin-top: 8px;
-  width: calc(50vw - 96px);
-  max-width: 700px;
+  width: 50vw;
+  min-width: 400px;
 }
 
 .socialImage {
