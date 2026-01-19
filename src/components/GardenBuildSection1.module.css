@@ -46,22 +46,28 @@
   display: block;
 }
 
+@media (max-width: 1024px) {
+  .imageWrapper {
+    width: 75%;
+  }
+}
+
 @media (max-width: 768px) {
   .section {
-    padding: 60px 0;
+    padding: clamp(40px, 8vw, 60px) 0;
   }
 
   .container {
-    padding: 0 24px;
+    padding: 0 clamp(20px, 4vw, 24px);
   }
 
   .textContent {
-    margin-bottom: 2rem;
+    margin-bottom: clamp(1.5rem, 3vw, 2rem);
   }
 
   .text {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: clamp(0.9375rem, 2.5vw, 1rem);
+    margin-bottom: clamp(0.75rem, 2vw, 1rem);
   }
 
   .imageWrapper {

@@ -36,21 +36,27 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 1024px) {
+  .section {
+    padding: clamp(50px, 8vw, 70px) 0;
+  }
+}
+
 @media (max-width: 768px) {
   .section {
-    padding: 60px 0;
+    padding: clamp(40px, 8vw, 60px) 0;
   }
 
   .container {
-    padding: 0 24px;
+    padding: 0 clamp(20px, 4vw, 24px);
   }
 
   .heading {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
   }
 
   .text {
-    font-size: 1rem;
+    font-size: clamp(0.9375rem, 2.5vw, 1rem);
   }
 }
 

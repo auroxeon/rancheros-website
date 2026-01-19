@@ -6,7 +6,7 @@
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 48px;
+  padding: 0 clamp(24px, 5vw, 48px);
 }
 
 .grid {
@@ -45,7 +45,7 @@
 }
 
 .caption {
-  font-size: 0.875rem;
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
   font-weight: 400;
   color: #2A2C29;
   text-transform: uppercase;
@@ -62,22 +62,28 @@
   }
 }
 
+@media (max-width: 968px) {
+  .section {
+    padding: clamp(50px, 8vw, 70px) 0;
+  }
+}
+
 @media (max-width: 640px) {
   .section {
-    padding: 60px 0;
+    padding: clamp(40px, 8vw, 60px) 0;
   }
 
   .container {
-    padding: 0 24px;
+    padding: 0 clamp(20px, 4vw, 24px);
   }
 
   .grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px 12px;
+    gap: clamp(16px, 3vw, 20px) clamp(10px, 2vw, 12px);
   }
 
   .caption {
-    font-size: 0.75rem;
+    font-size: clamp(0.6875rem, 1.5vw, 0.75rem);
   }
 }
 

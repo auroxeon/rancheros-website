@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 48px;
+  padding: clamp(40px, 8vw, 60px) clamp(24px, 5vw, 48px);
   overflow: hidden;
   margin: 0;
   box-sizing: border-box;
@@ -47,42 +47,50 @@
 }
 
 .heading {
-  font-size: 2.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 400;
-  margin-bottom: 1.5rem;
+  margin-bottom: clamp(1rem, 2.5vw, 1.5rem);
   color: #2A2C29;
   font-family: var(--font-playfair);
 }
 
 .description {
-  font-size: 1.125rem;
+  font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.8;
   color: #2A2C29;
   margin-bottom: 0;
   font-family: var(--font-inter);
 }
 
+@media (max-width: 1024px) {
+  .textHalf {
+    padding: clamp(32px, 6vw, 48px) clamp(20px, 4vw, 32px);
+  }
+}
+
 @media (max-width: 768px) {
   .section {
     flex-direction: column;
     min-height: auto;
+    height: auto;
   }
 
   .imageHalf,
   .textHalf {
     width: 100%;
-    min-height: 50vh;
+    flex: 1 1 100%;
+    min-height: clamp(300px, 50vh, 400px);
   }
 
   .textHalf {
-    padding: 40px 24px;
+    padding: clamp(32px, 8vw, 48px) clamp(20px, 5vw, 24px);
   }
 
   .heading {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
   }
 
   .description {
-    font-size: 1rem;
+    font-size: clamp(0.9375rem, 2.5vw, 1rem);
   }
 }

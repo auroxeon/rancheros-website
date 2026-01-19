@@ -9,7 +9,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 clamp(16px, 4vw, 24px);
   width: 100%;
 }
 
@@ -20,15 +20,15 @@
 }
 
 .heading {
-  font-size: 2.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-bottom: clamp(1.5rem, 3vw, 2rem);
   color: #ffffff;
   font-family: var(--font-playfair);
 }
 
 .text {
-  font-size: 1.125rem;
+  font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
   font-family: var(--font-inter);
@@ -47,17 +47,24 @@
   font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 clamp(20px, 4vw, 24px);
+  }
+}
+
 @media (max-width: 768px) {
   .section {
     min-height: clamp(200px, 35vh, 320px);
+    padding: clamp(40px, 8vw, 60px) 0;
   }
   
   .heading {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    margin-bottom: clamp(1rem, 3vw, 1.5rem);
   }
   
   .text {
-    font-size: 1rem;
+    font-size: clamp(0.9375rem, 2.5vw, 1rem);
   }
 }

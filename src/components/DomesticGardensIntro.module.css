@@ -25,11 +25,11 @@
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 48px;
+  padding: 0 clamp(24px, 5vw, 48px);
 }
 
 .darkSection .text {
-  font-size: 1.125rem;
+  font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
@@ -38,7 +38,7 @@
 }
 
 .lightSection .text {
-  font-size: 1.125rem;
+  font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.8;
   color: #2A2C29;
   text-align: center;
@@ -46,20 +46,28 @@
   margin: 0;
 }
 
+@media (max-width: 1024px) {
+  .darkSection,
+  .lightSection {
+    min-height: clamp(160px, 25vh, 200px);
+  }
+}
+
 @media (max-width: 768px) {
   .darkSection,
   .lightSection {
-    height: 25vh;
-    min-height: 180px;
+    height: auto;
+    min-height: clamp(140px, 22vh, 180px);
+    padding: clamp(24px, 6vw, 32px) 0;
   }
 
   .container {
-    padding: 0 24px;
+    padding: 0 clamp(20px, 5vw, 24px);
   }
 
   .darkSection .text,
   .lightSection .text {
-    font-size: 1rem;
+    font-size: clamp(0.9375rem, 2.5vw, 1rem);
   }
 }
 

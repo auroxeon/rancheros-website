@@ -6,7 +6,7 @@
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 48px;
+  padding: 0 clamp(24px, 5vw, 48px);
 }
 
 .content {
@@ -15,19 +15,19 @@
 }
 
 .heading {
-  font-size: 2.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 400;
-  margin-bottom: 1.5rem;
+  margin-bottom: clamp(1rem, 2.5vw, 1.5rem);
   color: #2A2C29;
   font-family: var(--font-playfair);
   text-align: center;
 }
 
 .text {
-  font-size: 1.125rem;
+  font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.8;
   color: #2A2C29;
-  margin-bottom: 3rem;
+  margin-bottom: clamp(2rem, 4vw, 3rem);
   text-align: center;
   font-family: var(--font-inter);
   max-width: 900px;
@@ -61,26 +61,32 @@
   display: block;
 }
 
+@media (max-width: 1024px) {
+  .section {
+    padding: clamp(50px, 8vw, 70px) 0;
+  }
+}
+
 @media (max-width: 768px) {
   .section {
-    padding: 60px 0;
+    padding: clamp(40px, 8vw, 60px) 0;
   }
 
   .container {
-    padding: 0 24px;
+    padding: 0 clamp(20px, 4vw, 24px);
   }
 
   .heading {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 5vw, 2rem);
   }
 
   .text {
-    font-size: 1rem;
-    margin-bottom: 2rem;
+    font-size: clamp(0.9375rem, 2.5vw, 1rem);
+    margin-bottom: clamp(1.5rem, 3vw, 2rem);
   }
 
   .imageGrid {
-    gap: 16px;
+    gap: clamp(12px, 2vw, 16px);
   }
 }
 
