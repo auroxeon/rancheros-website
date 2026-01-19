@@ -1,8 +1,15 @@
 import type { Metadata } from 'next'
+import { Inter, Montserrat, Open_Sans, Nunito, Playfair_Display } from 'next/font/google'
 import '../styles/globals.css'
 // All CSS modules are imported via globals.css
 import Header from '@/components/Header'
 import Footer from '@/components/Footer/Footer'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' })
+const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat', display: 'swap' })
+const openSans = Open_Sans({ subsets: ['latin'], variable: '--font-open-sans', weight: ['300', '400', '500', '600', '700', '800'], display: 'swap' })
+const nunito = Nunito({ subsets: ['latin'], variable: '--font-nunito', weight: ['200', '300', '400', '500', '600', '700', '800', '900'], display: 'swap' })
+const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair', weight: ['400', '500', '600', '700', '800', '900'], display: 'swap' })
 
 export const metadata: Metadata = {
   title: 'Rancheros Grills',
@@ -15,17 +22,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${montserrat.variable} ${openSans.variable} ${nunito.variable} ${playfair.variable}`}>
       <head>
         <link rel="icon" sizes="192x192" href="/logo-icon.png" type="image/png"/>
         <link rel="shortcut icon" href="/logo-icon.png" type="image/png"/>
         <link rel="apple-touch-icon" href="/logo-icon.png" type="image/png"/>
-        {/* Google Fonts - Load before CSS to ensure fonts are available */}
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-        {/* Standalone CSS - Complete Wix compatibility */}
-        <link rel="stylesheet" href="/css/standalone.css" />
       </head>
       <body className="responsive">
         <Header />

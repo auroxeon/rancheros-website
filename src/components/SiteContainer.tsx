@@ -2,7 +2,7 @@
 
 import Header from './Header'
 import MainContent from './MainContent'
-import Footer from './Footer'
+import Footer from './Footer/Footer'
 
 export default function SiteContainer() {
   return (
