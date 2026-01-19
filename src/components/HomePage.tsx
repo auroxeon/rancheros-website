@@ -1,0 +1,22 @@
+'use client'
+
+import Hero from './Hero'
+import AboutSection from './AboutSection'
+import DomesticGardensSection from './DomesticGardensSection'
+import CommercialGardensSection from './CommercialGardensSection'
+import HowWeWorkSection from './HowWeWorkSection'
+import NewsletterSection from './NewsletterSection'
+
+export default function HomePage() {
+  return (
+    <>
+      <Hero />
+      <AboutSection />
+      <DomesticGardensSection />
+      <CommercialGardensSection />
+      <HowWeWorkSection />
+      <NewsletterSection />
+    </>
+  )
+}
+

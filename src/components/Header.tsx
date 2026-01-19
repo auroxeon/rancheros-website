@@ -17,42 +17,16 @@ export default function Header() {
   const navItems = useMemo(
     () => [
       { label: "Home", href: "/" },
-      {
-        label: "Grills Design",
-        href: "/garden-design"
-      },
-      {
-        label: "Outdoor Living Designers",
-        children: [
-          { label: "Landscape Designers", href: "/landscape-designers" },
-          { label: "Architects", href: "/architects" },
-          { label: "Garden Designers", href: "/garden-designers" },
-          { label: "Homeowners", href: "/homeowners" },
-          { label: "Developers", href: "/developers" },
-        ],
-      },
-      {
-        label: "Our Products",
-        children: [
-          { label: "Single Grills", href: "/single-grills" },
-          { label: "Double Grills", href: "/double-grills" },
-          { label: "Accessories", href: "/accessories" },
-          { label: "Bespoke", href: "/bespoke" },
-          { label: "Services", href: "/services" },
-        ],
-      },
-      {
-        label: "About Us",
-        children: [
-          { label: "About", href: "/about" },
-          { label: "News", href: "/news" },
-          { label: "Careers", href: "/careers" },
-          { label: "Press", href: "/press" },
-        ],
-      },
-      { label: "Circulo del Fuego Club", href: "/blog" },
-      { label: "Contact Us", href: "/contact" },
-      { label: "Login", onClick: handleLoginClick },
+      { label: "Domestic Gardens", href: "/domestic-gardens" },
+      { label: "Commercial Gardens", href: "/commercial-gardens" },
+      { label: "Meet the Team", href: "/meet-the-team" },
+      { label: "How we Work", href: "/how-we-work" },
+      { label: "Garden Design", href: "/garden-design" },
+      { label: "Garden Build", href: "/garden-build" },
+      { label: "Garden Maintenance", href: "/garden-maintenance" },
+      { label: "Press", href: "/press" },
+      { label: "Careers", href: "/careers" },
+      { label: "Get in touch", href: "/contact" },
     ],
     [handleLoginClick]
   )

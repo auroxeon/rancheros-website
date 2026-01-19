@@ -1,6 +1,6 @@
 .section {
   padding: 80px 0;
-  background: #ffffff;
+  background: #f8f8f8;
 }
 
 .container {
@@ -18,29 +18,30 @@
 .heading {
   font-size: 2.5rem;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: #2A2C29;
   font-family: var(--font-playfair);
 }
 
-.text {
+.description {
   font-size: 1.125rem;
   line-height: 1.8;
   color: #666;
+  margin-bottom: 2rem;
   font-family: var(--font-inter);
 }
 
-.intro {
-  margin-bottom: 1.5rem;
-}
-
-.text p {
-  margin-bottom: 1.5rem;
-}
-
-.text strong {
+.link {
+  display: inline-block;
   color: #2A2C29;
-  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  font-family: var(--font-inter);
+}
+
+.link:hover {
+  color: #847539;
 }
 
 @media (max-width: 768px) {
@@ -52,7 +53,8 @@
     font-size: 2rem;
   }
   
-  .text {
+  .description {
     font-size: 1rem;
   }
 }
+

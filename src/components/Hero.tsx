@@ -15,8 +15,8 @@ const Hero = () => {
     })
   }, [])
 
-  const headline = 'BEAUTIFUL OUTDOOR LIVING'
-  const subHeadline = 'LUXURY GRILLS'
+  const headline = 'We work in harmony with nature and the seasons, creating landscapes that immerse, re-energise and bring new perspectives'
+  const subHeadline = ''
 
   const wrapChars = (text: string) =>
     Array.from(text).map((c, idx) => (
@@ -38,14 +38,6 @@ const Hero = () => {
       <div className={styles.content}>
         <div ref={textRef} className={styles.headline}>
           {wrapChars(headline)}
-        </div>
-        <div className={styles.subHeadline}>
-          {wrapChars(subHeadline)}
-        </div>
-        <div className={styles.ctaGroup}>
-          <a href="/contact" className={styles.primaryButton}>
-            Begin your journey
-          </a>
         </div>
       </div>
     </section>
