@@ -4,7 +4,7 @@ import GardenBuildHero from '@/components/GardenBuildHero'
 import GardenBuildIntro from '@/components/GardenBuildIntro'
 import GardenBuildSection1 from '@/components/GardenBuildSection1'
 import GardenBuildSection2 from '@/components/GardenBuildSection2'
-import GardenBuildCTA from '@/components/GardenBuildCTA'
+import GardenDesignCTA from '@/components/GardenDesignCTA'
 import DomesticGardensFooter from '@/components/DomesticGardensFooter'
 
 export default function GardenBuildPage() {
@@ -14,7 +14,7 @@ export default function GardenBuildPage() {
       <GardenBuildIntro />
       <GardenBuildSection1 />
       <GardenBuildSection2 />
-      <GardenBuildCTA />
+      <GardenDesignCTA />
       <DomesticGardensFooter />
     </>
   )

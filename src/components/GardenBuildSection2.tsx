@@ -25,38 +25,6 @@ export default function GardenBuildSection2() {
             From initial site preparation through to final landscaping touches, our project managers 
             coordinate every aspect of the build process, ensuring smooth execution and timely completion.
           </p>
-          <p className={styles.text}>
-            Our commitment to excellence means we use only the finest materials and work with trusted 
-            suppliers to deliver gardens that stand the test of time.
-          </p>
-          <p className={styles.text}>
-            Whether you&apos;re looking to create a peaceful retreat, an entertainment space, or a 
-            family-friendly garden, our build team has the expertise to make it happen.
-          </p>
-          <p className={styles.text}>
-            We understand that building a garden is a significant investment, and we treat every 
-            project with the care and professionalism it deserves.
-          </p>
-          <p className={styles.text}>
-            Our aftercare service ensures your garden continues to thrive long after construction is 
-            complete, with ongoing support and maintenance advice.
-          </p>
-          <p className={styles.text}>
-            Contact us today to discuss your garden build project and discover how we can bring your 
-            outdoor vision to life.
-          </p>
-          <p className={styles.text}>
-            With over 30 years of experience, Rancheros has built a reputation for excellence in 
-            garden construction and project management across London and the South East.
-          </p>
-          <p className={styles.text}>
-            Our team combines traditional craftsmanship with modern techniques to create gardens that 
-            are both beautiful and sustainable.
-          </p>
-          <p className={styles.text}>
-            Every project is unique, and we take pride in delivering bespoke solutions tailored to 
-            your specific needs, budget, and timeline.
-          </p>
         </div>
         <div className={styles.imageGrid}>
           <div className={styles.imageWrapper}>

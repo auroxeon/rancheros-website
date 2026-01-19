@@ -26,9 +26,6 @@ export default function GardenBuildSection1() {
             Clients are guaranteed that each project will be completed to the highest level of 
             workmanship, tackled with enthusiasm, dedication and professionalism.
           </p>
-          <p className={styles.text}>
-            Our aim is that not only do you love the end result but that you enjoy the journey too.
-          </p>
         </div>
         <div className={styles.imageWrapper}>
           <img 
