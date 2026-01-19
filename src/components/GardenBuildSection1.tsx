@@ -17,15 +17,6 @@ export default function GardenBuildSection1() {
             each job and are experienced in all aspects of constructing a garden from trellising 
             to steps, paving to water features, pergolas to fire pits.
           </p>
-          <p className={styles.text}>
-            They are used to working under pressure to tight deadlines, managing deliveries, 
-            problem solving, client liaison, cost control, as well as delivering an outstanding 
-            aftercare service.
-          </p>
-          <p className={styles.text}>
-            Clients are guaranteed that each project will be completed to the highest level of 
-            workmanship, tackled with enthusiasm, dedication and professionalism.
-          </p>
         </div>
         <div className={styles.imageWrapper}>
           <img 

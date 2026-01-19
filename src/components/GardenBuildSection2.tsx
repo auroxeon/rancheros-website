@@ -17,14 +17,6 @@ export default function GardenBuildSection2() {
             stately garden. Our experienced team brings years of expertise to every project, ensuring 
             quality craftsmanship and attention to detail.
           </p>
-          <p className={styles.text}>
-            We work closely with garden designers to bring their visions to life, transforming 
-            concepts into beautiful, functional outdoor spaces that enhance your property and lifestyle.
-          </p>
-          <p className={styles.text}>
-            From initial site preparation through to final landscaping touches, our project managers 
-            coordinate every aspect of the build process, ensuring smooth execution and timely completion.
-          </p>
         </div>
         <div className={styles.imageGrid}>
           <div className={styles.imageWrapper}>
