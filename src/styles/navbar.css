@@ -4,14 +4,15 @@
   top: 0;
   left: 0;
   right: 0;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 4px 32px;
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
 
 .navbar--scrolled {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
 }
 
