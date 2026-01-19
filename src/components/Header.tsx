@@ -32,7 +32,7 @@ export default function Header() {
       { label: "Meet the Team", href: "/meet-the-team" },
       { label: "How we Work", href: "/how-we-work" },
       { label: "Grills", href: "/garden-design" },
-      { label: "Garden Build", href: "/garden-build" },
+      { label: "Accessories", href: "/accessories" },
       { label: "Members Club", href: "/garden-maintenance" },
       { label: "Press", href: "/press" },
       { label: "Careers", href: "/careers" },

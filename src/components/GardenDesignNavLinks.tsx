@@ -12,7 +12,7 @@ export default function GardenDesignNavLinks() {
           <span className={styles.separator}>|</span>
           <Link href="/garden-design" className={styles.link}>Garden design</Link>
           <span className={styles.separator}>|</span>
-          <Link href="/garden-build" className={styles.link}>Garden build</Link>
+          <Link href="/accessories" className={styles.link}>Accessories</Link>
         </nav>
       </div>
     </section>
