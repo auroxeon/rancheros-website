@@ -38,34 +38,36 @@ export default function Header() {
     <>
       <header className="navbar">
         <div className="navbar__container">
-          <button
-            type="button"
-            className="navbar__menu-toggle"
-            aria-label="Open navigation menu"
-            aria-expanded={isMobileMenuOpen}
-            onClick={openMobileMenu}
-          >
-            <span className="navbar__menu-icon" aria-hidden="true">
-              <span />
-              <span />
-              <span />
-            </span>
-          </button>
-
           {/* Logo on far left */}
           <div className="navbar__logo">
             <Link href="/">
               <img 
-                src="/logo-icon.png" 
-                alt="Rancheros Grills"
-                width={117}
-                height={81}
+                src="/rancheros-logo.png" 
+                alt="Rancheros"
+                className="navbar__logo-img"
               />
             </Link>
           </div>
 
-          {/* Navigation in center */}
-          <Navigation items={navItems} />
+          {/* Right side: Get in touch button and burger menu */}
+          <div className="navbar__right">
+            <Link href="/contact" className="navbar__get-in-touch">
+              Get in touch
+            </Link>
+            <button
+              type="button"
+              className="navbar__menu-toggle"
+              aria-label="Open navigation menu"
+              aria-expanded={isMobileMenuOpen}
+              onClick={openMobileMenu}
+            >
+              <span className="navbar__menu-icon" aria-hidden="true">
+                <span />
+                <span />
+                <span />
+              </span>
+            </button>
+          </div>
         </div>
       </header>
 
