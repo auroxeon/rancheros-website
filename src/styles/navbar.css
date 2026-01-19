@@ -7,6 +7,12 @@
   background: transparent;
   z-index: 1000;
   padding: 24px 32px;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.navbar--scrolled {
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
 }
 
 .navbar__container {
@@ -64,9 +70,14 @@
 }
 
 .navbar__logo-img {
-  height: 50px;
+  height: 100px;
   width: auto;
   display: block;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+}
+
+.navbar--scrolled .navbar__logo-img {
   filter: brightness(0) invert(1);
 }
 
@@ -128,7 +139,7 @@
   }
 
   .navbar__logo-img {
-    height: 40px;
+    height: 80px;
   }
 
   .navbar__get-in-touch {

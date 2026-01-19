@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useMemo, useState, useEffect } from 'react'
 import Link from 'next/link'
 import LoginModal from './LoginModal'
 import Navigation from './Navigation'
@@ -9,6 +9,16 @@ import MobileNavigation from './MobileNavigation'
 export default function Header() {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const handleLoginClick = useCallback(() => {
     setIsLoginModalOpen(true)
@@ -36,7 +46,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="navbar">
+      <header className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
         <div className="navbar__container">
           {/* Logo on far left */}
           <div className="navbar__logo">
