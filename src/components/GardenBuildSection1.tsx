@@ -20,7 +20,7 @@ export default function GardenBuildSection1() {
         </div>
         <div className={styles.imageWrapper}>
           <img 
-            src="/images/Stapleton-Hall-Road-12.jpg" 
+            src="/images/Image-1---View-1.jpg" 
             alt="Garden construction"
             className={styles.image}
           />
